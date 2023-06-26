@@ -1,0 +1,69 @@
+/* add css module styles here (optional) */
+
+.test {
+    margin: 2em;
+    padding: 0.5em;
+    border: 2px solid #000;
+    font-size: 2em;
+    text-align: center;
+}
+
+.btn {
+    font-size: 14px;
+    height: 32px;
+    padding: 4px 15px;
+    border-radius: 6px;
+    outline: none;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all .2s cubic-bezier(.645, .045, .355, 1);
+    user-select: none;
+    touch-action: manipulation;
+    line-height: 1.5714285714285714;
+    color: rgba(0, 0, 0, .88);
+    width: 50%;
+}
+
+.primary {
+    color: #fff;
+    background-color: #1677ff;
+    box-shadow: 0 2px 0 rgba(5, 145, 255, .1);
+}
+
+.default {
+    background-color: #fff;
+    border-color: #d9d9d9;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .02);
+}
+
+.dashed {
+    background-color: #fff;
+    border-color: #d9d9d9;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .02);
+    border-style: dashed;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.text:hover {
+    background-color: rgb(248, 247, 247);
+    transform: scale(1.02);
+    color: green;
+}
+
+.text:active {
+    transform: scale(0.98);
+}
+
+.link {
+    color: #1677ff;
+}
